@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神搜</title>
+</head>
+<body>
+    <!--弹窗代码-->
+<div class="web_notice" style="
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.3);
+z-index: 99999;
+">
+<div style="position: fixed;top: 50%;left: 50%;width: 300px;background: #FFF;transform: translate(-50%, -50%);border-radius: 40px;padding: 25px 15px;">
+    <h2 style="font-weight: bold;text-align: center;font-size: 28px;">网站通知
+            <div style="
+		font-size: 17px;
+		margin-top: 20px;
+		line-height: 25px;
+		color: #999;">尊敬的用户，您好，欢迎使用雷神网络工作室自主制作的搜索网站/软件 《神搜》，站内/软件都是安全的，您可以放心使用，如有问题可以点击反馈，向制作组/工作室进行反馈<br><font color="red">注意：该网站/软件不支持PC/iPad端，如有需求可进入火与风仪的
+        <a href="my.html">神樱搜索（雷搜PC端）</a></font></div>
+            <a style="
+		display: block;
+		background: #98a3ff;
+		color: #FFF;
+		text-align: center;
+		font-weight: bold;
+		font-size: 19px;
+		line-height: 60px;
+		margin: 0 auto;
+		margin-top: 45px;
+		border-radius: 32px;
+		width: 80%;
+		" onclick="javascript:document.querySelector('.web_notice').remove()">
+                我知道了</a>
+    </div>
+</div>
+    <html>
+         <head>
+         </head>
+         <!--背景代码-->
+         <body background="cbj.gif"
+style=" background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;"
+>
+         <!--工具栏-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            font-weight: 500;
+            font-family: 微软雅黑;
+        }
+
+        #nav {
+            width: 350px;
+            height: 35px;
+            background-color: rgb(260, 245, 250);
+            border-radius: 15px;
+            margin: 20px auto;
+        }
+                #nav>ul>li {
+            float: left;
+            width: 65.75px;
+            height: 10px;
+            text-align: center;
+        }
+
+        #nav>ul>li>a {
+            text-align: center;
+            line-height: 40px;
+            font-size: 15px;
+            color: black;
+        }
+
+        #nav>ul>li>a:hover {
+            color: orange;
+        }
+
+        ul>span {
+            float: left;
+            line-height: 30px;
+            color: rgb(225, 224, 224);
+            font-weight: 800;
+            font-size: 24px;
+        }        #nav>ul>li>.a1 {
+            color: #FF0036;
+        }
+
+        #nav>ul>li>.a2 {
+            color: rgb(101, 198, 58);
+        }
+        
+                #nav>ul>li>.a3 {
+            color: #ffcc33;
+        }
+        
+                #nav>ul>li>.a4 {
+            color: #33ccff;
+        }
+        
+                #nav>ul>li>.a5 {
+            color: #FF006;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <ul>
+            <li><a href="https://docs.qq.com/form/page/DS3V2ZnFDVXhPamp3" class="a1">反馈</a></li>
+
+            <li><a href="js2.html" class="a2">计算器</a></li>
+
+            <li><a href="https://poki.com/" class="a3">小游戏</a></li>
+
+            <li><a href="tyy.html" class="a4">音乐</a></li>
+            <li><a href="gd.html" class="a5">更多</a></li>
+<!--标题-->
+<br><br><br>
+<font color="Golden Yellow "><center><strong><b><h1>神搜</h1></b></strong></center></font>
+<!--时间代码-->
+<center><div class="showTime">当前时间：2023年1月9日 20:35</div>
+<script>
+  var t = null;
+  t = setTimeout(time, 1000); //開始运行
+  function time() {
+    clearTimeout(t); //清除定时器
+    dt = new Date();
+    var y = dt.getFullYear();
+    var mt = dt.getMonth() + 1;
+    var day = dt.getDate();
+    var h = dt.getHours(); //获取时
+    var m = dt.getMinutes(); //获取分
+    document.querySelector(".showTime").innerHTML =
+      "当前时间：" +
+      y +
+      "年" +
+      mt +
+      "月" +
+      day +
+      "日 " +
+      h +
+      ":" +
+      m +
+      " " ;
+    t = setTimeout(time, 1000); //设定定时器，循环运行
+  }
+</script></center>
+<br>
+<html>
+	<center><head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			
+			form .text {
+				display: inline-block;
+				border: 0;
+				width: 220px;
+				height: 34px;
+				font-size: 15px;
+				outline: none;
+				
+				border: 2px solid #01af63;
+			}
+			
+			form .search {
+				
+				width: 90px;
+				height: 40px;
+				border: 0;
+				outline: none;
+				cursor: pointer;
+				/*   cursor: pointer;   鼠标悬停或点击时button时鼠标变成其他图标  */
+				text-align: center;
+				line-height: 30px;
+				background-color: #01af63;
+				color: #FFFFFF;
+			}
+		</style>
+	</head>
+		<!--搜索框-->
+		<form target="_blank" method="get" action="https://www.baidu.com/s">
+			<input type="text" placeholder="    请输入关键词" name="word" class="text" />
+			<input type="submit" value="搜索" class="search">
+		</form></center>
+	</body>
+</html>
